@@ -1,0 +1,20 @@
+body {
+    /* Fondo negro */
+    background-color: #3a3a3a;
+    color: #fa8169; /* Color del texto (verde) */
+    overflow: hidden; /* Oculta barras de scroll */
+    margin: 0;
+}
+
+pre#arte-ascii {
+    /* ¡VITAL! Usa una fuente monoespaciada
+       para que el arte no se deforme. */
+    font-family: 'Courier New', Courier, monospace;
+    
+    /* Ajusta estos valores para que quepa bien en tu pantalla */
+    font-size: 8px;
+    line-height: 0.9;
+    
+    /* Efecto de "viveza" (brillo tipo monitor antiguo) */
+    text-shadow: 0 0 5px #00FF00;
+}
